@@ -16,15 +16,36 @@ body {
   font-style: normal;
 }
 
-/* *1header */
+.container {
+  max-width: 1158px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 156px;
+  margin-right: 156px;
+}
 
+.container-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+/* *1header */
+.nav {
+  display: flex;
+}
 .nav a {
   text-decoration: none;
 }
 
 .nav ul {
   list-style-type: none;
+  margin: 0px 0px 0px 76px;
+  padding: 0px;
+  display: flex;
+  width: 261px;
+  justify-content: space-between;
 }
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -76,7 +97,11 @@ body {
   font-style: normal;
 }
 .address ul {
+  padding: 0px;
   list-style-type: none;
+  display: flex;
+  width: 344px;
+  justify-content: space-between;
 }
 
 .contacts {
@@ -101,6 +126,12 @@ body {
 }
 /* *main */
 /* !section-1 */
+.container-flex-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .first-section {
   background-color: #2e2f42;
 }
@@ -112,6 +143,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  margin: 0px 0px 48px 0px;
 }
 
 .main-btn {
@@ -123,6 +155,12 @@ body {
   background: #4d5ae5;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
+  border-radius: 4px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  border: none;
 }
 
 .main-btn:hover {
@@ -134,8 +172,14 @@ body {
 }
 
 /* !section-2 */
+
+.container-flex-2 {
+  display: flex;
+}
+
 .second-section ul {
   list-style-type: none;
+  display: flex;
 }
 
 .second-section ul h3 {
@@ -144,6 +188,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin: 0px 0px 8px 0px;
 }
 
 .second-section ul p {
@@ -163,13 +208,21 @@ body {
 
 .third-section ul {
   list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  margin: 0px;
 }
 
-.heros {
-  background-color: #ffffff;
-}
 .third-section ul li {
   background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
+  width: 264px;
+  height: 380px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
 }
 .third-section ul li h3 {
   font-weight: 500;
@@ -196,6 +249,7 @@ body {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin: 0px 0px 72px 0px;
 }
 
 /* !section-4 */
@@ -214,8 +268,17 @@ body {
   text-transform: capitalize;
 }
 
+.container-flex-4 {
+  display: flex;
+}
+
 .fourth-section ul {
   list-style-type: none;
+}
+
+.block-flex {
+  display: flex;
+  justify-content: space-between;
 }
 
 .fourth-section ul li h3 {
@@ -259,4 +322,8 @@ footer a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
+}
+
+.section {
+  padding: 120px 0px;
 }
