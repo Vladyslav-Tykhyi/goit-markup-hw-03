@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
       href="node_modules/modern-normalize/modern-normalize.css"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -20,13 +27,6 @@
       rel="stylesheet"
     />
     <title>document</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -72,8 +72,8 @@
       </section>
       <!-- *section-2  -->
       <section class="second-section section">
-        <h2 class="visually-hidden">can't be visible</h2>
         <div class="container">
+          <h2 class="visually-hidden">can't be visible</h2>
           <ul class="list-info">
             <li class="info-list">
               <h3 class="heading">Strategy</h3>
@@ -116,24 +116,32 @@
           <ul class="heros">
             <li class="hero">
               <img src="./images/img-3.jpg" width="254" alt="man" />
-              <h3 class="name-hero">Mark Guerrero</h3>
-              <p class="profession-hero">Product Designer</p>
+              <div class="container-hero">
+                <h3 class="name-hero">Mark Guerrero</h3>
+                <p class="profession-hero">Product Designer</p>
+              </div>
             </li>
 
             <li class="hero">
               <img src="./images/img-2.jpg" width="254" alt="man" />
-              <h3 class="name-hero">Tom Ford</h3>
-              <p class="profession-hero">Frontend Developer</p>
+              <div class="container-hero">
+                <h3 class="name-hero">Tom Ford</h3>
+                <p class="profession-hero">Frontend Developer</p>
+              </div>
             </li>
             <li class="hero">
               <img src="./images/img-1.jpg" width="254" alt="girl" />
-              <h3 class="name-hero">Camila Garcia</h3>
-              <p class="profession-hero">Marketing</p>
+              <div class="container-hero">
+                <h3 class="name-hero">Camila Garcia</h3>
+                <p class="profession-hero">Marketing</p>
+              </div>
             </li>
             <li class="hero">
               <img src="./images/img.jpg" width="254" alt="man" />
-              <h3 class="name-hero">Daniel Wilson</h3>
-              <p class="profession-hero">UI Designer</p>
+              <div class="container-hero">
+                <h3 class="name-hero">Daniel Wilson</h3>
+                <p class="profession-hero">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -143,41 +151,53 @@
           <h2 class="portfolio">Our Portfolio</h2>
           <!--!block-above  -->
           <ul class="block">
-            <li>
+            <li class="images-portfolio">
               <img src="./images/img-5.jpg" alt="banking-app" width="360" />
-              <h3 class="block-heading">Banking App</h3>
-              <p class="profession">App</p>
+              <div class="block-portfolio">
+                <h3 class="block-heading">Banking App</h3>
+                <p class="profession">App</p>
+              </div>
             </li>
-            <li>
+            <li class="images-portfolio">
               <img src="./images/img-4.jpg" alt="payment" width="360" />
-              <h3 class="block-heading">Cashless Payment</h3>
-              <p class="profession">Marketing</p>
+              <div class="block-portfolio">
+                <h3 class="block-heading">Cashless Payment</h3>
+                <p class="profession">Marketing</p>
+              </div>
             </li>
-            <li>
+            <li class="images-portfolio">
               <img src="./images/img-8.jpg" alt="laptop" width="360" />
-              <h3 class="block-heading">Meditation App</h3>
-              <p class="profession">App</p>
+              <div class="block-portfolio">
+                <h3 class="block-heading">Meditation App</h3>
+                <p class="profession">App</p>
+              </div>
             </li>
             <!-- !block below -->
-            <li>
+            <li class="images-portfolio">
               <img
                 src="./images/img-7.jpg"
                 alt="taxi"
                 width="360"
                 height="300"
               />
-              <h3 class="block-heading">Taxi Service</h3>
-              <p class="profession">Marketing</p>
+              <div class="block-portfolio">
+                <h3 class="block-heading">Taxi Service</h3>
+                <p class="profession">Marketing</p>
+              </div>
             </li>
-            <li>
+            <li class="images-portfolio">
               <img src="./images/img-6.jpg" alt="phone" width="360" />
-              <h3 class="block-heading">Screen Illustrations</h3>
-              <p class="profession">Design</p>
+              <div class="block-portfolio">
+                <h3 class="block-heading">Screen Illustrations</h3>
+                <p class="profession">Design</p>
+              </div>
             </li>
-            <li>
+            <li class="images-portfolio">
               <img src="./images/img-9.jpg" alt="girl" width="360" />
-              <h3 class="block-heading">Online Courses</h3>
-              <p class="profession">Marketing</p>
+              <div class="block-portfolio">
+                <h3 class="block-heading">Online Courses</h3>
+                <p class="profession">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
