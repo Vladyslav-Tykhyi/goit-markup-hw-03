@@ -158,10 +158,7 @@ header {
 }
 /* *main */
 /* !section-1 */
-.container-flex-one {
-  margin: 0 auto;
-  text-align: center;
-}
+
 .first-section {
   background-color: #2e2f42;
   padding-top: 188px;
@@ -209,10 +206,6 @@ header {
 }
 
 /* !section-2 */
-
-.container-flex-2 {
-  display: flex;
-}
 
 .visually-hidden {
   position: absolute;
@@ -328,10 +321,6 @@ header {
   color: #2e2f42;
   text-transform: capitalize;
   margin-bottom: 72px;
-}
-
-.container-flex-4 {
-  display: flex;
 }
 
 .block {
